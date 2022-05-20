@@ -32,7 +32,7 @@ CREATE TABLE public.posts (
 );
 
 
-ALTER TABLE public.posts OWNER TO joshua;
+ALTER TABLE public.posts OWNER TO user;
 
 
 CREATE SEQUENCE public.posts_id_seq
