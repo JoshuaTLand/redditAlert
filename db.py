@@ -3,9 +3,6 @@ import psycopg2
 dbUsername = ''
 dbPassword = ''
 
-#dbHost = ''
-#database = ''
-
 dbHost = 'localhost'
 database = 'redditalert'
 
