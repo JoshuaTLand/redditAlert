@@ -44,7 +44,7 @@ CREATE SEQUENCE public.posts_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.posts_id_seq OWNER TO joshua;
+ALTER TABLE public.posts_id_seq OWNER TO user;
 
 
 ALTER SEQUENCE public.posts_id_seq OWNED BY public.posts.id;
