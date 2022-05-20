@@ -12,8 +12,12 @@ Setup
 -
 Required Packages
  - requests
- - psycopg2
+ - psycopg2 (or equivelant library for used db)
  - discord.py
+
+Database
+ - The db class current uses psycopg2 to connect to a postgresql db.
+ - Create the "redditalert" database and execute the `dbScript` sql file to create the needed table
 
 Usage
  -
