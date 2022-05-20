@@ -2,6 +2,7 @@ New V4 Features!
 -
  - multiple sublists are now supported. each list is assigned a discord channel that it's corresponding notifications go to
  - sublists have been moved to text files that only require the name of the sub
+ - errors are now collected as reddits & posts are evaluated. They are sent out to a single `error` channel via the discord bot
  - charts used for past averages are now handled dynamically. `'week', 'month', 'year'` are tried in order until posts are returned
  - score threshold is static for all subreddits, except r/all which is much higher
  - posts are only checked for fast rising in posts from r/all
