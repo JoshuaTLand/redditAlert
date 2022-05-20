@@ -5,7 +5,7 @@ New V4 Features!
  - errors are now collected as reddits & posts are evaluated. They are sent out to a single `error` channel via the discord bot
  - charts used for past averages are now handled dynamically. `'week', 'month', 'year'` are tried in order until posts are returned
  - score threshold is static for all subreddits, except r/all which is much higher
- - posts are only checked for fast rising in posts from r/all
+ - posts are only checked for fast rising if they originate from r/all
  - a timer now monitors requests to keep under the 60 requests / minute limit while minimizing wait times
  - minor notification tweaks were added such as a link to the origin subreddit in all notifications and a redirect to old.reddit.com for comment links
 
