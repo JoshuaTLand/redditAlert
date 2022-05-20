@@ -19,7 +19,7 @@ Required Packages
 Database
  - the db class current uses psycopg2 to connect to a postgresql db.
  - create the "redditalert" database
- - change `line 35` of the `dbScript` to your user. Save and run the sql file to create the needed table
+ - change `lines 35 & 47` of the `dbScript` to your user. Save and run the sql file to create the needed table
 
 Usage
  -
