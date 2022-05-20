@@ -1,0 +1,7 @@
+all
+
+# Sports
+nfl
+nba
+mlb
+nhl
