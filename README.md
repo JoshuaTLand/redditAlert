@@ -16,8 +16,9 @@ Required Packages
  - discord.py
 
 Database
- - The db class current uses psycopg2 to connect to a postgresql db.
- - Create the "redditalert" database and execute the `dbScript` sql file to create the needed table
+ - the db class current uses psycopg2 to connect to a postgresql db.
+ - create the "redditalert" database
+ - change `line 35` of the `dbScript` to your user. Save and run the sql file to create the needed table
 
 Usage
  -
