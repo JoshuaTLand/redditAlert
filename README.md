@@ -6,7 +6,7 @@ New V4 Features!
  - charts used for past averages are now handled dynamically. `'week', 'month', 'year'` are tried in order until posts are returned
  - score threshold is static for all subreddits, except r/all which is much higher
  - posts are only checked for fast rising in posts from r/all
- - a timer now monitors requests to keep under the 60 requests / minute while minimizing wait times
+ - a timer now monitors requests to keep under the 60 requests / minute limit while minimizing wait times
  - minor notification tweaks were added such as a link to the origin subreddit in all notifications and a redirect to old.reddit.com for comment links
 
 Setup
